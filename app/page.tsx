@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -27,8 +26,8 @@ export default function Home() {
 
 
       <button className="bg-slate-700 p-8" onClick={() => call("/api/python/dummy")}>/api/python/dummy</button>
-      <button className="bg-slate-700 p-8" onClick={() => call("/api/javascript/[slug]")}>/api/javascript/[slug]</button>
-      <button className="bg-slate-700 p-8" onClick={() => call("/api/javascript/value")}>/api/javascript/value</button>
+      <button className="bg-slate-700 p-8" onClick={() => call("/service/javascript/[slug]")}>/service/javascript/[slug]</button>
+      <button className="bg-slate-700 p-8" onClick={() => call("/service/javascript/value")}>/service/javascript/value</button>
       </div>
 
     </main>
