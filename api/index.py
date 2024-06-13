@@ -4,8 +4,7 @@ from sanic.response import json
 
 app = Sanic()
 
-
 # This endpoint has to match the folder structure and will be the calling endpoint
-@app.get('/service/python')
+@app.get('/api/index')
 async def index(request: Request):
     return json({"hello": "world"})
