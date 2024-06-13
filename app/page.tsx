@@ -25,7 +25,7 @@ export default function Home() {
       <div className="flex flex-col gap-8">
 
 
-      <button className="bg-slate-700 p-8" onClick={() => call("/api/index")}>/api/index</button>
+      <button className="bg-slate-700 p-8" onClick={() => call("/service/index")}>/service/index</button>
       <button className="bg-slate-700 p-8" onClick={() => call("/service/javascript/[slug]")}>/service/javascript/[slug]</button>
       <button className="bg-slate-700 p-8" onClick={() => call("/service/javascript/value")}>/service/javascript/value</button>
       </div>
