@@ -8,6 +8,7 @@ app = Sanic()
 @app.get('/')
 @app.get('/index')
 @app.get('/api/index')
+@app.get('/api/python')
 @app.get('/api/python/dummy')
 async def index(request: Request):
     return json({"hello": "world"})
